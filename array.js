@@ -20,3 +20,30 @@
 //for(let i of arr){
     //console.log(i);
 //}
+//function add(a,b){
+    //return (a*b);
+//}
+//let res = add(4,5)
+//console.log(res);
+
+function func(arr){
+    let sum = 0;
+    for (let i = 0; i < arr.length;i++){
+
+    
+    
+if(arr[i] % 2==0 ){
+    
+    sum = sum+ arr[i];
+    }
+    
+
+}
+return sum;
+}
+
+
+
+let arr = [1,5,6,6,6,2,2,2];
+let a = func(arr);
+console.log(a);
